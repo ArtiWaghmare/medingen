@@ -1,0 +1,79 @@
+
+.accordion-button {
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #f8f9fa;
+    color: #333;
+    box-shadow: none;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+  }
+  
+  .accordion-body {
+    font-size: 22px;
+    color: #666;
+    padding: 1rem;
+    background-color: #f8f9fa;
+  }
+  
+  /* Ratings Styles */
+  .stars {
+    color: #ddd;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+  }
+  
+  .star.active {
+    color: #ffc107;
+  }
+  
+  .rating-badge {
+    font-size: 15px;
+    color: #666;
+    background-color: #f8f9fa;
+  }
+  
+  .review-text {
+    font-size: 16px;
+    color: black;
+    line-height: 1.4;
+  }
+  
+  /* Disclaimer Styles */
+  .disclaimer-text {
+    font-size: 16px;
+    color: black;
+    line-height: 1.6;
+  }
+  
+  h5 {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  h6 {
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: 500;
+  }
+
+  .questions{
+   font-size: 15px;
+  }
+  .fw-medium{
+    background-color: #f8f9fa;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .bg-color{
+    background-color: #f8f9fa;
+    border-radius: 5px;
+  }

@@ -1,0 +1,72 @@
+.navbar-brand img {
+  max-width: 40px;
+}
+
+.nav-link:hover {
+  background-color: #f5f5f5;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.navbar .bi-cart {
+  margin-left: 15px;
+}
+
+.navbar {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link i {
+  transition: color 0.3s;
+}
+
+.nav-link:hover i {
+  background-color: whitesmoke;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.icon-size {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+
+.large-icon {
+  font-size: 1.7rem;
+}
+
+.navbar-logo {
+  width: 100px;
+  height: 60px;
+}
+
+.medigen-text {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* Reduce padding for small screens */
+@media (max-width: 576px) {
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.navbar-nav .nav-link {
+  font-size: 14px;
+}
+
+.bi {
+  font-size: 20px;
+}
+
+.navbar-collapse {
+  padding-top: 0;
+  padding-bottom: 0;
+}

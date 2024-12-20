@@ -1,0 +1,38 @@
+.card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+   
+  }
+  
+  .card-img-top {
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  .imageContainer{
+    background-color: #f8f9fa;
+    margin: 15px;
+    border-radius: 5px;
+    
+    height: 250px;
+
+  }
+  .card-img-top{
+    width: 200px;
+    height: 150px;
+    margin:50px auto ;
+  }
+  .text-warning{
+   
+    margin: 10px;
+    
+    
+  }
+  .bg-light-color{
+    background-color: #f8f9fa;
+  }
